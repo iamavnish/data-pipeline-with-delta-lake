@@ -22,12 +22,52 @@ The dashboard will be used to inform purchasing behavior and ensure that the com
 
 Orders and Inventory data for Online clothing store
 
-## Solution
+## Low Level Design (LLD)
 
-Lambda function is triggered once a day through CloudWatch Events which extracts data for top 50 global songs on Spotify through Spotify API and stores in S3 bucket in JSON format. Another Lambda function gets triggered whenever a new file is added to S3 bucket (first S3 bucket). This second lambda function does some transformations on the raw data like extracting albums data, artists data and songs data and storing the transformed data into second S3 bucket in CSV format. Schema is inferred from CSV files through Glue Crawlers and corresponding metadata is stored in Glue Data Catalog. Then anaytics can be performed on top of CSV files in second S3 bucket using Athena service. Finally, a dashboard is built using QuickSight to visualize data such as "Top 5 Global Artists on Spotify" using Athena as Data Source.
+********************************* Bronze Layer ***********************************
+1.) Upload JSON files for Orders data to DBFS: ORDERS_RAW_PART_001.json, ORDERS_RAW_PART_002.json, ORDERS_RAW_PART_003.json, ORDERS_RAW_PART_004.json
+2.) Load the JSON files into a dataframe (orders_raw_df)
+3.) Create delta tabe (orders_raw) from the dataframe (orders_raw_df)
+4.) Upload JSON files for Inventory data to DBFS: INVENTORY.json
+5.) Load the JSON file into a dataframe (inventory_df)
+6.) Create delta tabe (inventory) from the dataframe (inventory_df)
 
-[Top 5 Global Artists (Dashboard).pdf](https://github.com/user-attachments/files/15949227/Top.5.Global.Artists.Dashboard.pdf)
+********************************* Silver Layer ***********************************
+7.) Read delta table (orders_raw) into a new dataframe (orders_silver_df)
+8.) Update data type of column order_date in dataframe, orders_silver_df.
+9.) Drop rows with null values in the dataframe.
+10.) Add a calculated column, total_order (total_order = quantity * unit_price)
+11.) Create a new delta table (orders_silver)
+
+********************************* Gold Layer *************************************
+12.) Compute below KPIs and create new delta tables for each of the KPIs.
+12.1) Quantity sold by Country
+12.2) Sales by Category
+12.3) Top 5 Popular Brands
+
+********************************* BI *********************************************
+13.) Create visuals for each of the delta tables.
+14.) Create a dashboard out of the above visuals.
 
 
+********************************* Bronze Layer ***********************************
+15.) Update data in orders_raw table using merge. Upload JSON file to DBFS: UPDATE_ORDERS_RAW.json
+16.) Load the JSON file into a dataframe (update_orders_df)
+17.) Create a seperate dataframe (delta_orders_raw) out of orders_raw table.
+18.) Merge two tables: orders_raw (alias to delta_orders_raw) and UpdateOrders (alias to update_orders_df)
 
-Data Pipeline with Delta Lake using Medallion architecture
+********************************* Gold Layer *************************************
+19.) Compute below KPI and create new delta table for it.
+19.1) Low Stock or Out of Stock items
+20.) Group all orders from orders_silver table based on brand, color, product_name and size and add qty_sold (sum(quantity)).
+21.) Join the result with inventory table using inner join on brand, prodyct_name, color and size.
+22.) Add calculated column qty_left_stock as (stock - qty_sold)
+23.) Filter out cancelled orders
+24.) Keep only items with qty_left_stock < 20
+25.) Sort the result by qty_left_stock in ascending order.
+
+********************************* BI *********************************************
+13.) Create visual for the above delta table.
+14.) Add the visual to dashboard.
+
+
