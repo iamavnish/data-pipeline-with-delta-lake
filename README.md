@@ -33,41 +33,41 @@ Orders and Inventory data for Online clothing store
 - Create delta tabe (inventory) from the dataframe (inventory_df)
 
 ********************************* Silver Layer ***********************************
-7.) Read delta table (orders_raw) into a new dataframe (orders_silver_df)
-8.) Update data type of column order_date in dataframe, orders_silver_df.
-9.) Drop rows with null values in the dataframe.
-10.) Add a calculated column, total_order (total_order = quantity * unit_price)
-11.) Create a new delta table (orders_silver)
+- Read delta table (orders_raw) into a new dataframe (orders_silver_df)
+- Update data type of column order_date in dataframe, orders_silver_df.
+- Drop rows with null values in the dataframe.
+- Add a calculated column, total_order (total_order = quantity * unit_price)
+- Create a new delta table (orders_silver)
 
 ********************************* Gold Layer *************************************
-12.) Compute below KPIs and create new delta tables for each of the KPIs.
-12.1) Quantity sold by Country
-12.2) Sales by Category
-12.3) Top 5 Popular Brands
+- Compute below KPIs and create new delta tables for each of the KPIs.
+  - Quantity sold by Country
+  - Sales by Category
+  - Top 5 Popular Brands
 
 ********************************* BI *********************************************
-13.) Create visuals for each of the delta tables.
-14.) Create a dashboard out of the above visuals.
+- Create visuals for each of the delta tables.
+- Create a dashboard out of the above visuals.
 
 
 ********************************* Bronze Layer ***********************************
-15.) Update data in orders_raw table using merge. Upload JSON file to DBFS: UPDATE_ORDERS_RAW.json
-16.) Load the JSON file into a dataframe (update_orders_df)
-17.) Create a seperate dataframe (delta_orders_raw) out of orders_raw table.
-18.) Merge two tables: orders_raw (alias to delta_orders_raw) and UpdateOrders (alias to update_orders_df)
+- Update data in orders_raw table using merge. Upload JSON file to DBFS: UPDATE_ORDERS_RAW.json
+- Load the JSON file into a dataframe (update_orders_df)
+- Create a seperate dataframe (delta_orders_raw) out of orders_raw table.
+- Merge two tables: orders_raw (alias to delta_orders_raw) and UpdateOrders (alias to update_orders_df)
 
 ********************************* Gold Layer *************************************
-19.) Compute below KPI and create new delta table for it.
-19.1) Low Stock or Out of Stock items
-20.) Group all orders from orders_silver table based on brand, color, product_name and size and add qty_sold (sum(quantity)).
-21.) Join the result with inventory table using inner join on brand, prodyct_name, color and size.
-22.) Add calculated column qty_left_stock as (stock - qty_sold)
-23.) Filter out cancelled orders
-24.) Keep only items with qty_left_stock < 20
-25.) Sort the result by qty_left_stock in ascending order.
+- Compute below KPI and create new delta table for it.
+  - Low Stock or Out of Stock items
+- Group all orders from orders_silver table based on brand, color, product_name and size and add qty_sold (sum(quantity)).
+- Join the result with inventory table using inner join on brand, prodyct_name, color and size.
+- Add calculated column qty_left_stock as (stock - qty_sold)
+- Filter out cancelled orders
+- Keep only items with qty_left_stock < 20
+- Sort the result by qty_left_stock in ascending order.
 
 ********************************* BI *********************************************
-13.) Create visual for the above delta table.
-14.) Add the visual to dashboard.
+- Create visual for the above delta table.
+- Add the visual to dashboard.
 
 
