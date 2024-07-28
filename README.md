@@ -6,8 +6,7 @@ This is Proof of Concept for Data Pipeline with Delta Lake using Medallion archi
 
 ## Architecture
 
-medallion architecture.jpg
-
+![medallion architecture](https://github.com/user-attachments/assets/1d22fda3-2c4f-4c5a-8b1f-6963e5abb876)
 
 ## Tech Stack
 
