@@ -25,12 +25,12 @@ Orders and Inventory data for Online clothing store
 ## Low Level Design (LLD)
 
 ********************************* Bronze Layer ***********************************
-1.) Upload JSON files for Orders data to DBFS: ORDERS_RAW_PART_001.json, ORDERS_RAW_PART_002.json, ORDERS_RAW_PART_003.json, ORDERS_RAW_PART_004.json
-2.) Load the JSON files into a dataframe (orders_raw_df)
-3.) Create delta tabe (orders_raw) from the dataframe (orders_raw_df)
-4.) Upload JSON files for Inventory data to DBFS: INVENTORY.json
-5.) Load the JSON file into a dataframe (inventory_df)
-6.) Create delta tabe (inventory) from the dataframe (inventory_df)
+- Upload JSON files for Orders data to DBFS: ORDERS_RAW_PART_001.json, ORDERS_RAW_PART_002.json, ORDERS_RAW_PART_003.json, ORDERS_RAW_PART_004.json
+- Load the JSON files into a dataframe (orders_raw_df)
+- Create delta tabe (orders_raw) from the dataframe (orders_raw_df)
+- Upload JSON files for Inventory data to DBFS: INVENTORY.json
+- Load the JSON file into a dataframe (inventory_df)
+- Create delta tabe (inventory) from the dataframe (inventory_df)
 
 ********************************* Silver Layer ***********************************
 7.) Read delta table (orders_raw) into a new dataframe (orders_silver_df)
