@@ -2,9 +2,9 @@
 
 ## Overview 
 
-This is Proof of Concept for Data Pipeline with Delta Lake using Medallion architecture.
+This is Proof of Concept for creating a Data Pipeline with Delta Lake using Medallion architecture.
 
-## Use Case / Problem Statement
+## Use Case
 
 Create a dashboard to Analyze Orders History for an online clothing store that sells a wide range of fashion brands.
 The dashboard will be used to inform purchasing behavior and ensure that the company has enough inventory to meet demand for upcoming holiday season.
