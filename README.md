@@ -20,7 +20,7 @@ The dashboard will be used to inform purchasing behavior and ensure that the com
 
 ## Dataset
 
-Top 50 Songs Globally on Spotify accessed through Spotify API
+Orders and Inventory data for Online clothing store
 
 ## Solution
 
