@@ -1,2 +1,2 @@
-# data-pipeline_with-delta-lake
+# data-pipeline-with-delta-lake
 Data Pipeline with Delta Lake using Medallion architecture
