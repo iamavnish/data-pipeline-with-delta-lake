@@ -15,16 +15,7 @@ The dashboard will be used to inform purchasing behavior and ensure that the com
 
 ## Tech Stack
 
-- AWS
-  - Lambda
-  - S3
-  - Glue Crawler
-  - Glue Catalog
-  - Athena
-  - QuickSight
-  - IAM
-  - CloudWatch Events (EventBridge)
-  - CloudWatch Logs
+- Databricks Platform (Community Edition)
 - Python3
 
 ## Dataset
