@@ -1,0 +1,975 @@
+﻿[
+    {
+        "BRAND": "J.Crew",
+        "PRODUCT_NAME": "Green Cargo Pants",
+        "SIZE": "Size 32x32",
+        "COLOR": "Green",
+        "STOCK": 58
+    },
+    {
+        "BRAND": "Theory",
+        "PRODUCT_NAME": "Grey Turtleneck Sweater",
+        "SIZE": "Size S",
+        "COLOR": "Grey",
+        "STOCK": 42
+    },
+    {
+        "BRAND": "Ray-Ban",
+        "PRODUCT_NAME": "Classic Aviator Sunglasses",
+        "SIZE": "One Size",
+        "COLOR": "Gold/Brown",
+        "STOCK": 53
+    },
+    {
+        "BRAND": "ASOS",
+        "PRODUCT_NAME": "Men's Faux Leather Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Black",
+        "STOCK": 40
+    },
+    {
+        "BRAND": "Levi's",
+        "PRODUCT_NAME": "Distressed Denim Shorts",
+        "SIZE": "Size M",
+        "COLOR": "Light Blue",
+        "STOCK": 46
+    },
+    {
+        "BRAND": "Gap",
+        "PRODUCT_NAME": "Classic Cotton T-Shirt",
+        "SIZE": "Size L",
+        "COLOR": "Navy",
+        "STOCK": 44
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Leather Crossbody Bag",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 53
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Gray Joggers",
+        "SIZE": "Size 12",
+        "COLOR": "Gray",
+        "STOCK": 50
+    },
+    {
+        "BRAND": "Steve Madden",
+        "PRODUCT_NAME": "Lace-Up Combat Boots",
+        "SIZE": "Size 8",
+        "COLOR": "Black",
+        "STOCK": 65
+    },
+    {
+        "BRAND": "Dr. Martens",
+        "PRODUCT_NAME": "Black Leather Chelsea Boots",
+        "SIZE": "Size 10",
+        "COLOR": "Black",
+        "STOCK": 61
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Red Puffer Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Red",
+        "STOCK": 58
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Men's Bomber Jacket",
+        "SIZE": "Size L",
+        "COLOR": "Olive Green",
+        "STOCK": 62
+    },
+    {
+        "BRAND": "J.Crew",
+        "PRODUCT_NAME": "Striped Button-Up Shirt",
+        "SIZE": "Size XL",
+        "COLOR": "Blue/White",
+        "STOCK": 65
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Orange Cargo Shorts",
+        "SIZE": "Size 8",
+        "COLOR": "Orange",
+        "STOCK": 44
+    },
+    {
+        "BRAND": "Allen Edmonds",
+        "PRODUCT_NAME": "Brown Leather Belt",
+        "SIZE": "Size 34",
+        "COLOR": "Brown",
+        "STOCK": 55
+    },
+    {
+        "BRAND": "Rebecca Taylor",
+        "PRODUCT_NAME": "White Eyelet Blouse",
+        "SIZE": "Size S",
+        "COLOR": "White",
+        "STOCK": 67
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "Black Denim Shorts",
+        "SIZE": "Size 8",
+        "COLOR": "Black",
+        "STOCK": 68
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "Red Plaid Button-Up Shirt",
+        "SIZE": "Size 4",
+        "COLOR": "Red and Black",
+        "STOCK": 59
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Green Camo Pants",
+        "SIZE": "Size 5",
+        "COLOR": "Green",
+        "STOCK": 59
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "Pink Floral Dress",
+        "SIZE": "Size 6",
+        "COLOR": "Pink",
+        "STOCK": 63
+    },
+    {
+        "BRAND": "Common Projects",
+        "PRODUCT_NAME": "Black Leather Sneakers",
+        "SIZE": "Size 10",
+        "COLOR": "Black",
+        "STOCK": 41
+    },
+    {
+        "BRAND": "AllSaints",
+        "PRODUCT_NAME": "Black Leather Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Black",
+        "STOCK": 104
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Leather Strap Watch",
+        "SIZE": "One Size",
+        "COLOR": "Brown",
+        "STOCK": 78
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Velvet Jumpsuit",
+        "SIZE": "Size S",
+        "COLOR": "Navy",
+        "STOCK": 62
+    },
+    {
+        "BRAND": "Ralph Lauren Kids",
+        "PRODUCT_NAME": "Orange Striped Polo Shirt",
+        "SIZE": "Size 4",
+        "COLOR": "Orange and White",
+        "STOCK": 74
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Floral Midi Dress",
+        "SIZE": "Size 6",
+        "COLOR": "Pink/White",
+        "STOCK": 60
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Wrap-Front Jumpsuit",
+        "SIZE": "Size 6",
+        "COLOR": "Black",
+        "STOCK": 57
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Checkered Button-Down Shirt",
+        "SIZE": "Size L",
+        "COLOR": "Red/Blue",
+        "STOCK": 77
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Brown Leather Loafers",
+        "SIZE": "Size 10",
+        "COLOR": "Brown",
+        "STOCK": 66
+    },
+    {
+        "BRAND": "Timberland",
+        "PRODUCT_NAME": "Brown Leather Boots",
+        "SIZE": "Size 9.5",
+        "COLOR": "Brown",
+        "STOCK": 61
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "Yellow Raincoat",
+        "SIZE": "Size 4",
+        "COLOR": "Yellow",
+        "STOCK": 59
+    },
+    {
+        "BRAND": "Ralph Lauren Kids",
+        "PRODUCT_NAME": "Yellow Floral Sundress",
+        "SIZE": "Size 12",
+        "COLOR": "Yellow and White",
+        "STOCK": 84
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Purple Leggings",
+        "SIZE": "Size 7",
+        "COLOR": "Purple",
+        "STOCK": 75
+    },
+    {
+        "BRAND": "Levi's",
+        "PRODUCT_NAME": "Blue Jeans",
+        "SIZE": "Size 32",
+        "COLOR": "Blue",
+        "STOCK": 71
+    },
+    {
+        "BRAND": "Banana Republic",
+        "PRODUCT_NAME": "Cable Knit Sweater",
+        "SIZE": "Size S",
+        "COLOR": "Cream",
+        "STOCK": 62
+    },
+    {
+        "BRAND": "Nike",
+        "PRODUCT_NAME": "Men's Hooded Windbreaker",
+        "SIZE": "Size M",
+        "COLOR": "Red",
+        "STOCK": 71
+    },
+    {
+        "BRAND": "Cole Haan",
+        "PRODUCT_NAME": "Leather Oxford Shoes",
+        "SIZE": "Size 10.5",
+        "COLOR": "Brown",
+        "STOCK": 64
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "White Lace Blouse",
+        "SIZE": "Size M",
+        "COLOR": "White",
+        "STOCK": 87
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Checked Flannel Shirt",
+        "SIZE": "Size S",
+        "COLOR": "Red/Black",
+        "STOCK": 77
+    },
+    {
+        "BRAND": "Hermès",
+        "PRODUCT_NAME": "Silk Scarf",
+        "SIZE": "One Size",
+        "COLOR": "Blue/White",
+        "STOCK": 77
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Slim-Fit Khaki Pants",
+        "SIZE": "Size 32x32",
+        "COLOR": "Khaki",
+        "STOCK": 82
+    },
+    {
+        "BRAND": "Reebok",
+        "PRODUCT_NAME": "Classic Leather Sneakers",
+        "SIZE": "Size 11",
+        "COLOR": "White",
+        "STOCK": 66
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Green Cargo Pants",
+        "SIZE": "Size 12",
+        "COLOR": "Green",
+        "STOCK": 76
+    },
+    {
+        "BRAND": "Adidas",
+        "PRODUCT_NAME": "Grey Sneakers",
+        "SIZE": "Size 8",
+        "COLOR": "Grey",
+        "STOCK": 70
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Gray Pullover Sweater",
+        "SIZE": "Size L",
+        "COLOR": "Gray",
+        "STOCK": 93
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Ruffle-Trimmed Blouse",
+        "SIZE": "Size M",
+        "COLOR": "Ivory",
+        "STOCK": 90
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Blue Plaid Shirt",
+        "SIZE": "Size 12",
+        "COLOR": "Blue",
+        "STOCK": 86
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "A-Line Mini Skirt",
+        "SIZE": "Size XS",
+        "COLOR": "Black",
+        "STOCK": 74
+    },
+    {
+        "BRAND": "Patagonia",
+        "PRODUCT_NAME": "Men's Down Jacket",
+        "SIZE": "Size L",
+        "COLOR": "Navy Blue",
+        "STOCK": 76
+    },
+    {
+        "BRAND": "J.Crew",
+        "PRODUCT_NAME": "V-Neck Cashmere Sweater",
+        "SIZE": "Size XL",
+        "COLOR": "Grey",
+        "STOCK": 84
+    },
+    {
+        "BRAND": "Brooks Brothers",
+        "PRODUCT_NAME": "Brown Leather Loafers",
+        "SIZE": "Size 10",
+        "COLOR": "Brown",
+        "STOCK": 73
+    },
+    {
+        "BRAND": "Topshop",
+        "PRODUCT_NAME": "Women's Faux Leather Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Burgundy",
+        "STOCK": 74
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Purple Fleece Jacket",
+        "SIZE": "Size 8",
+        "COLOR": "Purple",
+        "STOCK": 78
+    },
+    {
+        "BRAND": "Adidas Kids",
+        "PRODUCT_NAME": "Pink Ruffle Skirt",
+        "SIZE": "Size 6",
+        "COLOR": "Pink",
+        "STOCK": 74
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Green Camo Hoodie",
+        "SIZE": "Size M",
+        "COLOR": "Green Camouflage",
+        "STOCK": 93
+    },
+    {
+        "BRAND": "Nike",
+        "PRODUCT_NAME": "Grey Sweatpants",
+        "SIZE": "Size M",
+        "COLOR": "Grey",
+        "STOCK": 87
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "Red Puffer Jacket",
+        "SIZE": "Size 14/16",
+        "COLOR": "Red",
+        "STOCK": 87
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Blue Floral Dress",
+        "SIZE": "Size S",
+        "COLOR": "Blue",
+        "STOCK": 85
+    },
+    {
+        "BRAND": "Madewell",
+        "PRODUCT_NAME": "Striped Sweater",
+        "SIZE": "Size XS",
+        "COLOR": "Navy/White",
+        "STOCK": 92
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Green Cargo Pants",
+        "SIZE": "Size 10",
+        "COLOR": "Green",
+        "STOCK": 82
+    },
+    {
+        "BRAND": "Equipment",
+        "PRODUCT_NAME": "Ivory Silk Blouse",
+        "SIZE": "Size M",
+        "COLOR": "Ivory",
+        "STOCK": 81
+    },
+    {
+        "BRAND": "Ralph Lauren Kids",
+        "PRODUCT_NAME": "White Eyelet Dress",
+        "SIZE": "Size 7",
+        "COLOR": "White",
+        "STOCK": 96
+    },
+    {
+        "BRAND": "Levi's",
+        "PRODUCT_NAME": "Black Skinny Jeans",
+        "SIZE": "Size 28",
+        "COLOR": "Black",
+        "STOCK": 101
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Cropped Wide-Leg Pants",
+        "SIZE": "Size L",
+        "COLOR": "Beige",
+        "STOCK": 89
+    },
+    {
+        "BRAND": "The North Face",
+        "PRODUCT_NAME": "Women's Puffer Jacket",
+        "SIZE": "Size S",
+        "COLOR": "Black",
+        "STOCK": 104
+    },
+    {
+        "BRAND": "Suede Co.",
+        "PRODUCT_NAME": "Women's Leather Biker Jacket",
+        "SIZE": "Size S",
+        "COLOR": "Brown",
+        "STOCK": 85
+    },
+    {
+        "BRAND": "Ralph Lauren",
+        "PRODUCT_NAME": "Pink Polo Shirt",
+        "SIZE": "Size M",
+        "COLOR": "Pink",
+        "STOCK": 96
+    },
+    {
+        "BRAND": "Levi's",
+        "PRODUCT_NAME": "High-Waisted Skinny Jeans",
+        "SIZE": "Size 28",
+        "COLOR": "Dark Blue",
+        "STOCK": 88
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Pink Striped Dress",
+        "SIZE": "Size 4",
+        "COLOR": "Pink",
+        "STOCK": 90
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Leather Passport Case",
+        "SIZE": "One Size",
+        "COLOR": "Bourbon",
+        "STOCK": 84
+    },
+    {
+        "BRAND": "Tommy Hilfiger",
+        "PRODUCT_NAME": "Quilted Bomber Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Green",
+        "STOCK": 82
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "Red Graphic T-shirt",
+        "SIZE": "Size 8",
+        "COLOR": "Red",
+        "STOCK": 95
+    },
+    {
+        "BRAND": "Barbour",
+        "PRODUCT_NAME": "Men's Quilted Jacket",
+        "SIZE": "Size L",
+        "COLOR": "Navy",
+        "STOCK": 99
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Black Track Pants",
+        "SIZE": "Size 10",
+        "COLOR": "Black",
+        "STOCK": 97
+    },
+    {
+        "BRAND": "Hermès",
+        "PRODUCT_NAME": "Oversized Sunglasses",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 85
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Black Ankle Boots",
+        "SIZE": "Size 8",
+        "COLOR": "Black",
+        "STOCK": 108
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Brown Leather Gloves",
+        "SIZE": "Size M",
+        "COLOR": "Brown",
+        "STOCK": 85
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Blue Denim Skirt",
+        "SIZE": "Size 8",
+        "COLOR": "Blue",
+        "STOCK": 111
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Blue Hoodie",
+        "SIZE": "Size 10",
+        "COLOR": "Blue",
+        "STOCK": 101
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Women's Faux Fur Coat",
+        "SIZE": "Size M",
+        "COLOR": "Cream",
+        "STOCK": 112
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "White Lace Dress",
+        "SIZE": "Size 5",
+        "COLOR": "White",
+        "STOCK": 93
+    },
+    {
+        "BRAND": "Adida Kids",
+        "PRODUCT_NAME": "Blue Striped T-Shirt",
+        "SIZE": "Size 2T",
+        "COLOR": "Blue and White",
+        "STOCK": 90
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "Pink Ruffled Skirt",
+        "SIZE": "Size 6",
+        "COLOR": "Pink",
+        "STOCK": 104
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Leather Wallet",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 93
+    },
+    {
+        "BRAND": "Brooks Brothers",
+        "PRODUCT_NAME": "Navy Blazer",
+        "SIZE": "Size 40R",
+        "COLOR": "Navy",
+        "STOCK": 102
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "Purple Floral Romper",
+        "SIZE": "Size 2",
+        "COLOR": "Purple and White",
+        "STOCK": 91
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "White Eyelet Skirt",
+        "SIZE": "Size 10",
+        "COLOR": "White",
+        "STOCK": 95
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Silver Stud Earrings",
+        "SIZE": "One Size",
+        "COLOR": "Silver",
+        "STOCK": 110
+    },
+    {
+        "BRAND": "Banana Republic",
+        "PRODUCT_NAME": "White Button-up Shirt",
+        "SIZE": "Size L",
+        "COLOR": "White",
+        "STOCK": 106
+    },
+    {
+        "BRAND": "Topshop",
+        "PRODUCT_NAME": "Red Wrap Skirt",
+        "SIZE": "Size M",
+        "COLOR": "Red",
+        "STOCK": 117
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Women's Leather Moto Jacket",
+        "SIZE": "Size S",
+        "COLOR": "Black",
+        "STOCK": 104
+    },
+    {
+        "BRAND": "Zara Kids",
+        "PRODUCT_NAME": "Grey Hoodie",
+        "SIZE": "Size L",
+        "COLOR": "Grey",
+        "STOCK": 97
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Grey Turtleneck Sweater",
+        "SIZE": "Size L",
+        "COLOR": "Grey",
+        "STOCK": 103
+    },
+    {
+        "BRAND": "Brooks Brothers",
+        "PRODUCT_NAME": "Blue Dress Shirt",
+        "SIZE": "Size L",
+        "COLOR": "Blue",
+        "STOCK": 104
+    },
+    {
+        "BRAND": "GAP Kids",
+        "PRODUCT_NAME": "Blue Plaid Button-Up Shirt",
+        "SIZE": "Size 5",
+        "COLOR": "Blue and Green",
+        "STOCK": 108
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Black Leather Crossbody Bag",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 105
+    },
+    {
+        "BRAND": "Ralph Lauren",
+        "PRODUCT_NAME": "Leather Briefcase",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 106
+    },
+    {
+        "BRAND": "Hugo Boss",
+        "PRODUCT_NAME": "Navy Blue Suit",
+        "SIZE": "Size 42R",
+        "COLOR": "Navy Blue",
+        "STOCK": 118
+    },
+    {
+        "BRAND": "Clarks",
+        "PRODUCT_NAME": "Suede Desert Boots",
+        "SIZE": "Size 9",
+        "COLOR": "Taupe",
+        "STOCK": 92
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Leather Tote Bag",
+        "SIZE": "One Size",
+        "COLOR": "Caramel",
+        "STOCK": 102
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Black Leather Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Black",
+        "STOCK": 119
+    },
+    {
+        "BRAND": "Nike Kids",
+        "PRODUCT_NAME": "Blue Graphic T-shirt",
+        "SIZE": "Size 5",
+        "COLOR": "Blue",
+        "STOCK": 114
+    },
+    {
+        "BRAND": "Adidas Kids",
+        "PRODUCT_NAME": "Blue Denim Shorts",
+        "SIZE": "Size 4T",
+        "COLOR": "Blue",
+        "STOCK": 117
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Green Utility Jacket",
+        "SIZE": "Size XL",
+        "COLOR": "Green",
+        "STOCK": 123
+    },
+    {
+        "BRAND": "Ralph Lauren",
+        "PRODUCT_NAME": "Wool Peacoat",
+        "SIZE": "Size L",
+        "COLOR": "Navy",
+        "STOCK": 109
+    },
+    {
+        "BRAND": "Madewell",
+        "PRODUCT_NAME": "Women's Denim Jacket",
+        "SIZE": "Size S",
+        "COLOR": "Light Blue",
+        "STOCK": 123
+    },
+    {
+        "BRAND": "Levi's",
+        "PRODUCT_NAME": "Men's Denim Jacket",
+        "SIZE": "Size XL",
+        "COLOR": "Blue",
+        "STOCK": 112
+    },
+    {
+        "BRAND": "J.Crew",
+        "PRODUCT_NAME": "Women's Wool Peacoat",
+        "SIZE": "Size M",
+        "COLOR": "Charcoal Grey",
+        "STOCK": 115
+    },
+    {
+        "BRAND": "Burberry",
+        "PRODUCT_NAME": "Men's Hooded Parka",
+        "SIZE": "Size L",
+        "COLOR": "Black",
+        "STOCK": 117
+    },
+    {
+        "BRAND": "Forever 21",
+        "PRODUCT_NAME": "Red Plaid Skirt",
+        "SIZE": "Size S",
+        "COLOR": "Red",
+        "STOCK": 119
+    },
+    {
+        "BRAND": "Marmot",
+        "PRODUCT_NAME": "Women's Down Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Navy Blue",
+        "STOCK": 114
+    },
+    {
+        "BRAND": "Madewell",
+        "PRODUCT_NAME": "Blue Denim Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Blue",
+        "STOCK": 112
+    },
+    {
+        "BRAND": "Madewell",
+        "PRODUCT_NAME": "High-Rise Skinny Jeans",
+        "SIZE": "Size 28",
+        "COLOR": "Black",
+        "STOCK": 128
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Men's Leather Moto Jacket",
+        "SIZE": "Size XL",
+        "COLOR": "Brown",
+        "STOCK": 115
+    },
+    {
+        "BRAND": "The North Face",
+        "PRODUCT_NAME": "Men's Fleece Jacket",
+        "SIZE": "Size M",
+        "COLOR": "Grey",
+        "STOCK": 112
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Wool Fedora Hat",
+        "SIZE": "Size M",
+        "COLOR": "Gray",
+        "STOCK": 129
+    },
+    {
+        "BRAND": "Ralph Lauren Kids",
+        "PRODUCT_NAME": "Yellow Polo Shirt",
+        "SIZE": "Size 7",
+        "COLOR": "Yellow",
+        "STOCK": 121
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Black Leather Boots",
+        "SIZE": "Size 9",
+        "COLOR": "Black",
+        "STOCK": 123
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Yellow Sundress",
+        "SIZE": "Size M",
+        "COLOR": "Yellow",
+        "STOCK": 118
+    },
+    {
+        "BRAND": "Tumi",
+        "PRODUCT_NAME": "Black Leather Backpack",
+        "SIZE": "One Size",
+        "COLOR": "Black",
+        "STOCK": 127
+    },
+    {
+        "BRAND": "J.Crew",
+        "PRODUCT_NAME": "Grey Knit Sweater",
+        "SIZE": "Size L",
+        "COLOR": "Grey",
+        "STOCK": 126
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Women's Suede Trench Coat",
+        "SIZE": "Size L",
+        "COLOR": "Brown",
+        "STOCK": 128
+    },
+    {
+        "BRAND": "Adidas Kids",
+        "PRODUCT_NAME": "Pink Ruffle-Sleeve Top",
+        "SIZE": "Size 3T",
+        "COLOR": "Pink",
+        "STOCK": 117
+    },
+    {
+        "BRAND": "Ralph Lauren Kids",
+        "PRODUCT_NAME": "Navy Blue Polo Shirt",
+        "SIZE": "Size 6",
+        "COLOR": "Navy Blue",
+        "STOCK": 140
+    },
+    {
+        "BRAND": "Canada Goose",
+        "PRODUCT_NAME": "Green Parka",
+        "SIZE": "Size L",
+        "COLOR": "Green",
+        "STOCK": 120
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Gray Sweatshirt",
+        "SIZE": "Size 6",
+        "COLOR": "Gray",
+        "STOCK": 126
+    },
+    {
+        "BRAND": "Canada Goose",
+        "PRODUCT_NAME": "Men's Parka",
+        "SIZE": "Size XL",
+        "COLOR": "Dark Green",
+        "STOCK": 137
+    },
+    {
+        "BRAND": "H&M Kids",
+        "PRODUCT_NAME": "Pink Floral Dress",
+        "SIZE": "Size 6",
+        "COLOR": "Pink and Green",
+        "STOCK": 126
+    },
+    {
+        "BRAND": "H&M",
+        "PRODUCT_NAME": "Floral Print Sundress",
+        "SIZE": "Size S",
+        "COLOR": "Pink/Yellow",
+        "STOCK": 114
+    },
+    {
+        "BRAND": "Gap Kids",
+        "PRODUCT_NAME": "Yellow Graphic T-Shirt",
+        "SIZE": "Size XS",
+        "COLOR": "Yellow",
+        "STOCK": 126
+    },
+    {
+        "BRAND": "Burberry",
+        "PRODUCT_NAME": "Women's Trench Coat",
+        "SIZE": "Size XS",
+        "COLOR": "Beige",
+        "STOCK": 119
+    },
+    {
+        "BRAND": "Adidas Kids",
+        "PRODUCT_NAME": "Green Hooded Sweatshirt",
+        "SIZE": "Size 14",
+        "COLOR": "Green",
+        "STOCK": 124
+    },
+    {
+        "BRAND": "Adidas Kids",
+        "PRODUCT_NAME": "Grey Sweatpants",
+        "SIZE": "Size 5",
+        "COLOR": "Grey",
+        "STOCK": 125
+    },
+    {
+        "BRAND": "Zara",
+        "PRODUCT_NAME": "Grey Herringbone Blazer",
+        "SIZE": "Size 40R",
+        "COLOR": "Grey",
+        "STOCK": 128
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Black Leggings",
+        "SIZE": "Size S",
+        "COLOR": "Black",
+        "STOCK": 114
+    },
+    {
+        "BRAND": "Coach",
+        "PRODUCT_NAME": "Navy Blue Chinos",
+        "SIZE": "Size 34x32",
+        "COLOR": "Navy Blue",
+        "STOCK": 120
+    },
+    {
+        "BRAND": "Ralph Lauren",
+        "PRODUCT_NAME": "White Oxford Shirt",
+        "SIZE": "Size L",
+        "COLOR": "White",
+        "STOCK": 123
+    },
+    {
+        "BRAND": "Coachy",
+        "PRODUCT_NAME": "Black Pencil Skirt",
+        "SIZE": "Size 4",
+        "COLOR": "Black",
+        "STOCK": 132
+    },
+    {
+        "BRAND": "Mango",
+        "PRODUCT_NAME": "Pink Silk Blouse",
+        "SIZE": "Size XS",
+        "COLOR": "Pink",
+        "STOCK": 135
+    }
+]
