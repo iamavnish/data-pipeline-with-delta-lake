@@ -6,8 +6,7 @@ This is Proof of Concept for Data Pipeline with Delta Lake using Medallion archi
 
 ## Architecture
 
-![serverless-etl-pipeline drawio](https://github.com/iamavnish/serverless-etl-pipeline/assets/13760927/dc4b75e2-ac85-49ca-bc1b-2a912bfcf71b)
-
+https://www.databricks.com/wp-content/uploads/2020/09/delta-lake-medallion-model-scaled.jpg
 
 ## Tech Stack
 
