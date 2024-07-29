@@ -9,7 +9,7 @@ This is Proof of Concept for creating a Data Pipeline with Delta Lake using Meda
 Create a dashboard to Analyze Orders History for an online clothing store that sells a wide range of fashion brands.
 The dashboard will be used to inform purchasing behavior and ensure that the company has enough inventory to meet demand for upcoming holiday season.
 
-## Solution Architecture
+## High Level Design (HLD)
 
 ![medallion architecture](https://github.com/user-attachments/assets/1d22fda3-2c4f-4c5a-8b1f-6963e5abb876)
 
