@@ -15,7 +15,7 @@ The dashboard will be used to inform purchasing behavior and ensure that the com
 
 ## Tech Stack
 
-- Databricks Platform (Community Edition)
+- Databricks Data Platform (Community Edition)
 - PySpark
 - SparkSQL
 
